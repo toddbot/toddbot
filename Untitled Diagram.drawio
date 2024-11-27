@@ -19,6 +19,36 @@
         <mxCell id="ReMPJulzU-3ChHXb2hU5-5" value="LLM APi" style="rounded=0;whiteSpace=wrap;html=1;container=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="280" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ReMPJulzU-3ChHXb2hU5-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ReMPJulzU-3ChHXb2hU5-2" target="ReMPJulzU-3ChHXb2hU5-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="460" as="sourcePoint" />
+            <mxPoint x="680" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ReMPJulzU-3ChHXb2hU5-9" value="Send Data" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ReMPJulzU-3ChHXb2hU5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ReMPJulzU-3ChHXb2hU5-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.3;endAngle=0.16398956518868468;rotation=-135;" vertex="1" parent="1">
+          <mxGeometry x="646.46" y="318.54" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ReMPJulzU-3ChHXb2hU5-13" value="Store results in Queue" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="710" y="350" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ReMPJulzU-3ChHXb2hU5-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ReMPJulzU-3ChHXb2hU5-3" target="ReMPJulzU-3ChHXb2hU5-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="410" as="sourcePoint" />
+            <mxPoint x="600" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ReMPJulzU-3ChHXb2hU5-15" value="Send Data" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ReMPJulzU-3ChHXb2hU5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ReMPJulzU-3ChHXb2hU5-18" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
